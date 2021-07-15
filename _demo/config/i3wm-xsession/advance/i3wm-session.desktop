@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=XSession
+Exec=/usr/local/bin/i3wm-session.sh
+TryExec=/usr/local/bin/i3wm-session.sh
+Name=Be i3wm
+Comment=i3wm Xsession
+
+Name[zh_TW]=Be i3wm
+Comment[zh_TW]=i3wm Xsession
