@@ -35,8 +35,8 @@
 
 | 工具 | 簡介 |
 | --- | --- |
-| [bspwmrc-get](https://samwhelp.github.io/note-about-bspwm/read/project/bspwmrc-profile/bspwmrc-get.html) | 用來輔助「安裝」bspwm config |
-| [bspwmrc-ctrl](https://samwhelp.github.io/note-about-bspwm/read/project/bspwmrc-profile/bspwmrc-ctrl.html) | 用來輔助「切換」bspwm config |
+| [i3wmrc-get](https://samwhelp.github.io/note-about-i3wm/read/project/i3wmrc-profile/i3wmrc-get.html) | 用來輔助「安裝」i3wm config |
+| [i3wmrc-ctrl](https://samwhelp.github.io/note-about-i3wm/read/project/i3wmrc-profile/i3wmrc-ctrl.html) | 用來輔助「切換」i3wm config |
 
 
 ### 輔助工具
