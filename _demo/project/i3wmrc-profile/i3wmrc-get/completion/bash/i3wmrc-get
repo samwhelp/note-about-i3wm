@@ -1,0 +1,18 @@
+
+## /usr/local/share/bash-completion/completions/i3wmrc-get
+## $ sudo install -Dm644 ./i3wmrc-get /usr/local/share/bash-completion/completions/i3wmrc-get
+
+_i3wmrc_get () {
+
+	local cur prev words cword
+	_init_completion || return
+
+	if [ "$cword" = "1" ]; then
+		local action_list=$(DEBUG_I3WMRC_GET=false i3wmrc-get self_actions)
+		COMPREPLY=( $( compgen -W "$action_list" -- "$cur" ) )
+	fi
+
+	return 0
+}
+
+complete -F _i3wmrc_get i3wmrc-get
