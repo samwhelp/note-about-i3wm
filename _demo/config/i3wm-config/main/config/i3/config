@@ -228,12 +228,12 @@ bindsym Mod1+Ctrl+a exec xfce4-terminal
 
 ## Launch xterm
 ## Alt + Shift + t
-bindsym Mod1+Shift+t exec sakura
+bindsym Mod1+Shift+t exec xterm
 
 
 ## Launch urxvt
 ## Alt + Ctrl + t
-bindsym Mod1+Ctrl+t exec sakura
+bindsym Mod1+Ctrl+t exec urxvt
 
 ##
 ### Tail: Keybind / Application / Terminal
@@ -357,9 +357,9 @@ bindsym Mod4+n floating toggle
 
 
 ## focus mode_toggle
-## Alt + space
+## Win + v
 ## change focus between tiling / floating windows
-bindsym Mod4+Shift+space focus mode_toggle
+bindsym Mod4+v focus mode_toggle
 
 
 ## Focus to parent Window
@@ -381,16 +381,25 @@ bindsym Mod4+a focus prev
 ## Win + s
 bindsym Mod4+s focus next
 
-## Focus to Previous Window
+
+## Focus to Up Window
+## Win + k
+bindsym Mod4+k focus up
+
+
+## Focus to Down Window
+## Win + j
+bindsym Mod4+j focus down
+
+
+## Focus to Left Window
 ## Win + h
-bindsym Mod4+h focus prev
+bindsym Mod4+h focus left
 
 
-## Focus to Next Window
+## Focus to Right Window
 ## Win + l
-bindsym Mod4+l focus next
-
-
+bindsym Mod4+l focus right
 
 
 ##
@@ -405,14 +414,14 @@ bindsym Mod4+l focus next
 ## https://i3wm.org/docs/userguide.html#_focusing_moving_containers
 
 
-## Must
-## Focus to Left Window
-## Win + [
-#bindsym Mod4+bracketleft focus left
 
-## Focus to Left Window
+## Focus to Previous Window
+## Win + [
+bindsym Mod4+bracketleft focus prev
+
+## Focus to Next Window
 ## Win + ]
-#bindsym Mod4+bracketright focus right
+bindsym Mod4+bracketright focus next
 
 
 ## Must
@@ -778,13 +787,17 @@ bindsym Mod1+Right workspace next
 ## https://i3wm.org/docs/userguide.html#manipulating_layout
 
 ## Switch to Stacking
-## Alt + `
-bindsym Mod1+grave layout stacking
+## Win + `
+bindsym Mod4+grave layout stacking
 
 
 ## Switch to Tabbed
-## Alt + w
-bindsym Mod1+w layout tabbed
+## Win + Tab
+bindsym Mod4+Tab layout tabbed
+
+
+## Alt + `
+bindsym Mod1+grave layout toggle all
 
 
 ## Switch to toggle split
@@ -837,19 +850,19 @@ bindsym Mod1+Down layout toggle all
 
 ## https://i3wm.org/docs/userguide.html#_splitting_containers
 
-## Layout Split Vertical
+## Layout Split To Down Side (Vertical)
 ## Alt + u
 bindsym Mod1+u split vertical
 
 
-## Layout Split Horizontal
-## Alt + i
-bindsym Mod1+i split horizontal
+## Layout Split To Right Side (Horizontal)
+## Alt + o
+bindsym Mod1+o split horizontal
 
 
 ## Layout Split Toggle
-## Alt + o
-bindsym Mod1+o split toggle
+## Alt + i
+bindsym Mod1+i split toggle
 
 
 ### Head: Keybind / Layout / Split
@@ -989,6 +1002,7 @@ assign [class="Navigator|firefox"] 3
 ##
 
 assign [class="pcmanfm-qt"] 4
+assign [class="thunr"] 4
 
 ##
 ### Tail: Rule / Workspace / File
