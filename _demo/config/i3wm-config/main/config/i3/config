@@ -890,6 +890,30 @@ bindsym Mod1+i split toggle
 
 ##
 ## https://wiki.archlinux.org/index.php/Xbindkeys
+## https://wiki.archlinux.org/title/Feh
+##
+
+## Wallpaper Select Shuf
+## Alt + w
+bindsym Mod1+w exec feh --bg-fill --randomize ~/Pictures/Wallpaper
+
+
+## Wallpaper Select Default
+## Alt + Ctrl + w
+bindsym Mod1+Ctrl+w exec feh --bg-fill ~/Pictures/Wallpaper/default.jpg
+
+##
+### Tail: Keybind / Volume
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Volume
+##
+
+
+##
+## https://wiki.archlinux.org/index.php/Xbindkeys
 ## https://wiki.archlinux.org/index.php/Advanced_Linux_Sound_Architecture#Keyboard_volume_control
 ## https://wiki.archlinux.org/index.php/PulseAudio#Keyboard_volume_control
 ## https://zh.wikipedia.org/zh-tw/ALSA
