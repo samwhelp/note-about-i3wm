@@ -136,3 +136,19 @@
 | `Win + n`     | Window toggle floating or tited | `floating toggle` (i3 builtin) |
 
 > grave means `
+
+
+### Window Focus
+
+* [config snippet](config/i3/gen/i3wm-gen-rc/Section/Subject/Window/Keybind/Focus.conf)
+* [reference](https://i3wm.org/docs/userguide.html#_focusing_moving_containers)
+
+| Keybind   | Action                | Command                   |
+| --------- | --------------------  | -----------------------   |
+| `Win + a` | Focus previous window | `focus prev` (i3 builtin) |
+| `Win + s` | Focus next window     | `focus next` (i3 builtin) |
+
+| Keybind   | Action                | Command                   |
+| --------- | --------------------  | -----------------------   |
+| `Win + [` | Focus previous window | `focus prev` (i3 builtin) |
+| `Win + ]` | Focus next window     | `focus next` (i3 builtin) |
