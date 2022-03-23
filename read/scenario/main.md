@@ -33,51 +33,51 @@ parent: 使用情境
 
 | 主題 |
 | --- |
-| [系統操作](scenario/main/system-control) |
+| [系統操作](main/system-control) |
 
 
 ## 開啟應用程式
 
 | 主題 |
 | --- |
-| [開啟 Terminal](scenario/main/launch-terminal) |
-| [開啟 Rofi](scenario/main/launch-rofi) |
-| [開啟 Dmenu](scenario/main/launch-dmenu) |
-| [開啟常用的應用程式](scenario/main/launch-favorite-app) |
+| [開啟 Terminal](main/launch-terminal) |
+| [開啟 Rofi](main/launch-rofi) |
+| [開啟 Dmenu](main/launch-dmenu) |
+| [開啟常用的應用程式](main/launch-favorite-app) |
 
 
 ## 畫面佈局
 
 | 主題 |
 | --- |
-| [Layout操作](scenario/main/layout-control) |
-| [tag操作](scenario/main/tag-control) |
+| [Layout操作](main/layout-control) |
+| [tag操作](main/tag-control) |
 
 
 ## 視窗操作
 
 | 主題 |
 | --- |
-| [視窗移動操作](scenario/main/window-movement-control) |
-| [視窗其他操作](scenario/main/window-control) |
+| [視窗移動操作](main/window-movement-control) |
+| [視窗其他操作](main/window-control) |
 
 
 ## 桌面圖片
 
 | 主題 |
 | --- |
-| [桌面圖片](scenario/main/wallpaper-control) |
+| [桌面圖片](main/wallpaper-control) |
 
 
 ## 螢幕截圖
 
 | 主題 |
 | --- |
-| [螢幕截圖](scenario/main/screenshot) |
+| [螢幕截圖](main/screenshot) |
 
 
 ## 音量控制
 
 | 主題 |
 | --- |
-| [音量控制](scenario/main/volume-control) |
+| [音量控制](main/volume-control) |
