@@ -2,6 +2,8 @@
 # 首頁
 
 * [note-about-i3wm](https://samwhelp.github.io/note-about-i3wm/) ([GitHub](https://github.com/samwhelp/note-about-i3wm))
+* [i3wm](https://i3wm.org/)
+* [i3-gaps](https://github.com/Airblader/i3)
 
 
 ## 主題
