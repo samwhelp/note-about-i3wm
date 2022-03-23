@@ -30,6 +30,16 @@ grand_parent: 使用情境
 | `Win + Ctrl + Right` | 移動視窗右(東)方邊界，往右方移動 (寬度增加) | `resize grow width 20 px` (i3 builtin)    |
 
 
+也可以使用「`Win + 滑鼠右鍵按住不放`」移動滑鼠來更改視窗大小。
+
+## 平鋪視窗更改大小
+
+一樣可以用上面的按鍵，來操作平鋪視窗更改大小
+
+概念上一樣是操作「視窗下方邊界」，「視窗右方邊界」。
+
+也可以使用「`Win + 滑鼠右鍵按住不放`」移動滑鼠來操作。
+
 ## 參考連結
 
 * i3 User’s Guide / [6.12. Resizing containers/windows](https://i3wm.org/docs/userguide.html#resizingconfig)
