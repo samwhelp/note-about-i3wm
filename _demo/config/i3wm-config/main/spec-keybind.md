@@ -123,3 +123,16 @@
 | Keybind   | Action            | Command             |
 | --------- | ----------------- | ------------------- |
 | `Win + f` | Window FullScreen | `fullscreen toggle` (i3 builtin) |
+
+
+### Window FloatingToggle
+
+* [config snippet](config/i3/gen/i3wm-gen-rc/Section/Subject/Window/Keybind/FloatingToggle.conf)
+* [reference](https://i3wm.org/docs/userguide.html#manipulating_layout)
+
+| Keybind       | Action                          | Command                        |
+| ------------- | ------------------------------- | ------------------------------ |
+| `Win + grave` | Window toggle floating or tited | `floating toggle` (i3 builtin) |
+| `Win + n`     | Window toggle floating or tited | `floating toggle` (i3 builtin) |
+
+> grave means `

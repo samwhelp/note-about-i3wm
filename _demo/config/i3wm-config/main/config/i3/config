@@ -340,9 +340,14 @@ bindsym Mod4+f fullscreen toggle
 
 ## https://i3wm.org/docs/userguide.html#manipulating_layout
 
-## Window Float
+## Window toggle floating or tited
 ## Win + n
 bindsym Mod4+n floating toggle
+
+
+## Window toggle floating or tited
+## Win + `
+bindsym Mod4+grave floating toggle
 
 ##
 ### Tail: Keybind / Window / FloatingToggle
@@ -805,10 +810,6 @@ bindsym Mod1+grave layout toggle tabbed stacking
 bindsym Mod1+Tab layout toggle split
 
 
-## Switch to floating
-## Win + `
-bindsym Mod4+grave floating toggle
-
 ## Layout Cycle
 ## Win + Tab
 bindsym Mod4+Tab layout toggle all
@@ -918,7 +919,7 @@ bindsym Print exec --no-startup-id scrot
 
 ## Screenshot Selected Area
 ## Alt + Print
-bindsym Mod1+Print exec --no-startup-id scrot
+bindsym Mod1+Print exec --no-startup-id scrot -s
 
 ##
 ### Tail: Keybind / Volume
