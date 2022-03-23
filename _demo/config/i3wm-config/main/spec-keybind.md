@@ -13,7 +13,7 @@
 * [Volume Control](#volume-control)
 * [Window Control](#window-control)
 * [Layout Control](#layout-control)
-* [Workspace Switch](#layout-switch)
+* [Workspace Control](#workspace-control)
 
 
 
@@ -226,7 +226,9 @@
 | `Alt + Down` | Layout toggle all | `layout toggle all` (i3 builtin) |
 
 
-## Workspace Switch
+## Workspace Control
+
+### Workspace Switch
 
 * [config snippet](config/i3/gen/i3wm-gen-rc/Section/Subject/Workspace/Keybind/SwitchToSpecific.conf)
 
@@ -267,3 +269,17 @@
 | ------------- | ---------------------------- | ----------------------------- |
 | `Alt + Left`  | Switch to Previous Workspace | `workspace prev` (i3 builtin) |
 | `Alt + Right` | Switch to Next Workspace     | `workspace next` (i3 builtin) |
+
+
+## Window Move to Workspace
+
+* [config snippet](config/i3/gen/i3wm-gen-rc/Section/Subject/Window/Keybind/MoveToWorkspace.conf)
+
+
+| Keybind   | Action                                       | Command                                             |
+| --------- | -------------------------------------------- | --------------------------------------------------- |
+| `Win + 1` | Window(Container) Move to Workspace 1 (Term) | `move container to workspace number 1` (i3 builtin) |
+| `Win + 2` | Window(Container) Move to Workspace 2 (Edit) | `move container to workspace number 2` (i3 builtin) |
+| `Win + 3` | Window(Container) Move to Workspace 3 (Web)  | `move container to workspace number 3` (i3 builtin) |
+| `Win + 4` | Window(Container) Move to Workspace 4 (File) | `move container to workspace number 4` (i3 builtin) |
+| `Win + 5` | Window(Container) Move to Workspace 5 (Misc) | `move container to workspace number 5` (i3 builtin) |
