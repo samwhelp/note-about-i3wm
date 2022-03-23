@@ -33,6 +33,13 @@ grand_parent: 使用情境
 
 也可以使用「`Win + 滑鼠左鍵按住不放`」移動滑鼠來拖曳視窗。
 
+## 平鋪視窗移動
+
+一樣可以用上面的按鍵，向左，就會跟左方的視窗交換。
+
+但無法使用滑鼠操作交換。
+
+
 ## 參考連結
 
 * i3 User’s Guide / [6.5. Moving containers](https://i3wm.org/docs/userguide.html#_moving_containers)
