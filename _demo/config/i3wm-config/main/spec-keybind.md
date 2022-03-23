@@ -245,3 +245,25 @@
 | `Alt + 3` | Switch to Workspace 3 (Web)  | `workspace number 3` (i3 builtin) |
 | `Alt + 4` | Switch to Workspace 4 (File) | `workspace number 4` (i3 builtin) |
 | `Alt + 5` | Switch to Workspace 5 (Misc) | `workspace number 5` (i3 builtin) |
+
+
+* [config snippet](config/i3/gen/i3wm-gen-rc/Section/Subject/Layout/Keybind/QuickSwitch.conf)
+
+| Keybind   | Action                       | Command                                 |
+| --------- | ---------------------------- | --------------------------------------- |
+| `Alt + z` | Switch to Prior Workspace    | `workspace back_and_forth` (i3 builtin) |
+
+| Keybind   | Action                       | Command                       |
+| --------- | ---------------------------- | ----------------------------- |
+| `Alt + a` | Switch to Previous Workspace | `workspace prev` (i3 builtin) |
+| `Alt + s` | Switch to Next Workspace     | `workspace next` (i3 builtin) |
+
+| Keybind   | Action                       | Command                       |
+| --------- | ---------------------------- | ----------------------------- |
+| `Alt + h` | Switch to Previous Workspace | `workspace prev` (i3 builtin) |
+| `Alt + l` | Switch to Next Workspace     | `workspace next` (i3 builtin) |
+
+| Keybind       | Action                       | Command                       |
+| ------------- | ---------------------------- | ----------------------------- |
+| `Alt + Left`  | Switch to Previous Workspace | `workspace prev` (i3 builtin) |
+| `Alt + Right` | Switch to Next Workspace     | `workspace next` (i3 builtin) |

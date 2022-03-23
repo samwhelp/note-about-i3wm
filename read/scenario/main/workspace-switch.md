@@ -34,6 +34,29 @@ grand_parent: 使用情境
 | `Alt + 5` | 切換到工作空間 5 (Misc) | `workspace number 5` (i3 內建) |
 
 
+## 循環切換
+
+* [設定片段](config/i3/gen/i3wm-gen-rc/Section/Subject/Layout/Keybind/QuickSwitch.conf)
+
+| 按鍵組合  | 功能                                   | 執行指令                       |
+| --------- | -------------------------------------- | ------------------------------ |
+| `Alt + z` | 在目前和先前的工作空間來回切換(反覆按) | `workspace back_and_forth` (i3 內建) |
+
+| 按鍵組合  | 功能                 | 執行指令                   |
+| --------- | -------------------- | -------------------------- |
+| `Alt + a` | 切換到上一個工作空間 | `workspace prev` (i3 內建) |
+| `Alt + s` | 切換到下一個工作空間 | `workspace next` (i3 內建) |
+
+| 按鍵組合  | 功能                 | 執行指令                   |
+| --------- | -------------------- | -------------------------- |
+| `Alt + h` | 切換到上一個工作空間 | `workspace prev` (i3 內建) |
+| `Alt + l` | 切換到下一個工作空間 | `workspace next` (i3 內建) |
+
+| 按鍵組合      | 功能                 | 執行指令                   |
+| ------------- | -------------------- | -------------------------- |
+| `Alt + Left`  | 切換到上一個工作空間 | `workspace prev` (i3 內建) |
+| `Alt + Right` | 切換到下一個工作空間 | `workspace next` (i3 內建) |
+
 ## 參考連結
 
 * i3 User’s Guide / [6.8. Changing (named) workspaces/moving to workspaces](https://i3wm.org/docs/userguide.html#_changing_named_workspaces_moving_to_workspaces)
