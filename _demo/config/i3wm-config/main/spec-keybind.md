@@ -172,3 +172,14 @@
 | `Win + Down`  | Focus down window  | `focus down` (i3 builtin)  |
 | `Win + Left`  | Focus left window  | `focus left` (i3 builtin)  |
 | `Win + Right` | Focus right window | `focus right` (i3 builtin) |
+
+
+| Keybind   | Action                       | Command                     |
+| --------- | ---------------------------- | --------------------------- |
+| `Win + p` | Focus parent Container       | `focus parent` (i3 builtin) |
+| `Win + c` | Focus child Container/Window | `focus child` (i3 builtin)  |
+
+
+| Keybind   | Action                                         | Command                     |
+| --------- | ---------------------------------------------- | --------------------------- |
+| `Win + v` | Change focus between tiling / floating windows | `mode_toggle` (i3 builtin) |

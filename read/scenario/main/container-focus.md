@@ -64,8 +64,23 @@ grand_parent: 使用情境
 | `Win + l` | 聚焦切換到右邊視窗容器 | `focus right` (i3 內建) |
 
 
+## 父子視窗容器聚焦切換
+
+| Keybind   | Action                   | Command                  |
+| --------- | ------------------------ | ------------------------ |
+| `Win + p` | 聚焦到父視窗容器         | `focus parent` (i3 內建) |
+| `Win + c` | 聚焦到子視窗容器或子視窗 | `focus child` (i3 內建)  |
+
+
+## 在浮動視窗或平鋪視窗之間聚焦切換
+
+| Keybind   | Action                           | Command                 |
+| --------- | -------------------------------- | ----------------------- |
+| `Win + v` | 在浮動視窗或平鋪視窗之間聚焦切換 | `mode_toggle` (i3 內建) |
+
 
 ## 參考連結
 
 * i3 User’s Guide / [6.4. Focusing containers](https://i3wm.org/docs/userguide.html#_focusing_moving_containers)
 * i3 User’s Guide / [6.2. Splitting containers](https://i3wm.org/docs/userguide.html#_splitting_containers)
+* i3 User’s Guide / [3. Tree](https://i3wm.org/docs/userguide.html#_tree)
