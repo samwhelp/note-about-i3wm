@@ -16,6 +16,7 @@ parent: 使用情境
 * [開啟應用程式](#開啟應用程式)
 * [視窗操作](#視窗操作)
 * [畫面佈局](#畫面佈局)
+* [工作空間](#工作空間)
 * [桌面圖片](#桌面圖片)
 * [螢幕截圖](#螢幕截圖)
 * [音量控制](#音量控制)
@@ -50,14 +51,21 @@ parent: 使用情境
 | --- |
 | [視窗基本操作](main/window-control) |
 | [視窗移動操作](main/window-movement-control) |
+| [視窗容器聚焦切換](main/window-focus) |
 
 
 ## 畫面佈局
 
 | 主題 |
 | --- |
-| [Layout操作](main/layout-control) |
-| [tag操作](main/tag-control) |
+| [畫面佈局切換](main/layout-toggle) |
+
+
+## 工作空間
+
+| 主題 |
+| --- |
+| [工作空間切換](main/workspace-toggle) |
 
 
 ## 桌面圖片

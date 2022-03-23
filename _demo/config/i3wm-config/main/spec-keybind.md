@@ -12,6 +12,8 @@
 * [Screenshot](#screenshot)
 * [Volume Control](#volume-control)
 * [Window Control](#window-control)
+* [Layout Control](#layout-control)
+
 
 
 ## System Control
@@ -182,4 +184,31 @@
 
 | Keybind   | Action                                         | Command                     |
 | --------- | ---------------------------------------------- | --------------------------- |
-| `Win + v` | Change focus between tiling / floating windows | `mode_toggle` (i3 builtin) |
+| `Win + v` | Change focus between tiling or floating windows | `mode_toggle` (i3 builtin) |
+
+
+## Layout Control
+
+### Layout toggle
+
+* [config snippet](config/i3/gen/i3wm-gen-rc/Section/Subject/Layout/Keybind/QuickSwitch.conf)
+* [reference](https://i3wm.org/docs/userguide.html#manipulating_layout)
+
+
+| Keybind       | Action                                   | Command                                      |
+| ------------- | ---------------------------------------- | -------------------------------------------- |
+| `Win + Tab`   | Layout toggle all                        | `layout toggle all` (i3 builtin)             |
+| `All + Tab`   | Layout toggle between splitv or splith   | `layout toggle split` (i3 builtin)           |
+| `All + grave` | Layout toggle between tabbed or stacking | `layout toggle tabbed stacking` (i3 builtin) |
+| `Win + w`     | Layout toggle between tabbed or split    | `layout toggle tabbed split` (i3 builtin)    |
+
+> grave means `
+
+* [config snippet](config/i3/gen/i3wm-gen-rc/Section/Subject/Layout/Keybind/SwitchToSpecific.conf)
+
+| Keybind      | Action            | Command                          |
+| ------------ | ----------------- | -------------------------------- |
+| `Alt + k`    | Layout toggle all | `layout toggle all` (i3 builtin) |
+| `Alt + j`    | Layout toggle all | `layout toggle all` (i3 builtin) |
+| `Alt + Up`   | Layout toggle all | `layout toggle all` (i3 builtin) |
+| `Alt + Down` | Layout toggle all | `layout toggle all` (i3 builtin) |
