@@ -49,3 +49,7 @@ xmodmap -pk
 ``` sh
 xev -event keyboard
 ```
+
+## Links
+
+* [i3-gaps](https://github.com/Airblader/i3)
