@@ -15,6 +15,8 @@ grand_parent: 使用情境
 
 但當您做了更細部的分割後，就會有「視窗容器」的概念加入。
 
+一個「視窗容器」就會包含有多個「視窗」。
+
 請參考「[6.2. Splitting containers](https://i3wm.org/docs/userguide.html#_splitting_containers)」和「[6.4. Focusing containers](https://i3wm.org/docs/userguide.html#_focusing_moving_containers)」的說明。
 
 
