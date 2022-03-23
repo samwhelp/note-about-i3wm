@@ -152,3 +152,19 @@
 | --------- | --------------------  | -----------------------   |
 | `Win + [` | Focus previous window | `focus prev` (i3 builtin) |
 | `Win + ]` | Focus next window     | `focus next` (i3 builtin) |
+
+
+| Keybind   | Action             | Command                    |
+| --------- | ------------------ | -------------------------- |
+| `Win + k` | Focus up window    | `focus up` (i3 builtin)    |
+| `Win + j` | Focus down window  | `focus down` (i3 builtin)  |
+| `Win + h` | Focus left window  | `focus left` (i3 builtin)  |
+| `Win + l` | Focus right window | `focus right` (i3 builtin) |
+
+
+| Keybind       | Action             | Command                    |
+| ------------- | ------------------ | -------------------------- |
+| `Win + Up`    | Focus up window    | `focus up` (i3 builtin)    |
+| `Win + Down`  | Focus down window  | `focus down` (i3 builtin)  |
+| `Win + Left`  | Focus left window  | `focus left` (i3 builtin)  |
+| `Win + Right` | Focus right window | `focus right` (i3 builtin) |
