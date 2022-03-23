@@ -17,12 +17,12 @@
 
 ## User Config File Path
 
-* [~/.config/i3/config](./sowm)
+* [~/.config/i3/config](./config/i3/config)
 
 
 ## User Config Dir Path
 
-* [~/.config/i3](./i3)
+* [~/.config/i3](./config/i3)
 
 run
 
@@ -53,3 +53,4 @@ xev -event keyboard
 ## Links
 
 * [i3-gaps](https://github.com/Airblader/i3)
+* [i3wm](https://i3wm.org/)
