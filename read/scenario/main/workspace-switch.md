@@ -33,6 +33,7 @@ grand_parent: 使用情境
 | `Alt + 4` | 切換到工作空間 4 (File) | `workspace number 4` (i3 內建) |
 | `Alt + 5` | 切換到工作空間 5 (Misc) | `workspace number 5` (i3 內建) |
 
+> 我有設定「[workspace_auto_back_and_forth yes](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/gen/i3wm-gen-rc/Section/Subject/Workspace/Attribute/Base.conf#L37)」
 
 ## 循環切換
 
