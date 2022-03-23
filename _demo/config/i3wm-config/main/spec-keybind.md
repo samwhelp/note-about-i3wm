@@ -166,6 +166,27 @@
 | `Win + Shift + Right` | Window Move to Right | `move right 20 px` (i3 builtin) |
 
 
+### Window Resize
+
+* [config snippet](config/i3/gen/i3wm-gen-rc/Section/Subject/Window/Keybind/Resize.conf)
+* [reference](https://i3wm.org/docs/userguide.html#resizingconfig)
+
+| Keybind          | Action                                 | Command                                   |
+| ---------------- | -------------------------------------- | ----------------------------------------- |
+| `Win + Ctrl + k` | Move Window Bottom(South) Side to Up   | `resize shrink height 20 px` (i3 builtin) |
+| `Win + Ctrl + j` | Move Window Bottom(South) Side to Down | `resize grow height 20 px` (i3 builtin)   |
+| `Win + Ctrl + h` | Move Window Right(East) Side to Left   | `resize shrink width 20 px` (i3 builtin)  |
+| `Win + Ctrl + l` | Move Window Right(East) to Right       | `resize grow width 20 px` (i3 builtin)    |
+
+
+| Keybind              | Action                                 | Command                                   |
+| -------------------- | -------------------------------------- | ----------------------------------------- |
+| `Win + Ctrl + Up`    | Move Window Bottom(South) Side to Up   | `resize shrink height 20 px` (i3 builtin) |
+| `Win + Ctrl + Down`  | Move Window Bottom(South) Side to Down | `resize grow height 20 px` (i3 builtin)   |
+| `Win + Ctrl + Left`  | Move Window Right(East) Side to Left   | `resize shrink width 20 px` (i3 builtin)  |
+| `Win + Ctrl + Right` | Move Window Right(East) Side to Right  | `resize grow width 20 px` (i3 builtin)    |
+
+
 ### Window Focus
 
 * [config snippet](config/i3/gen/i3wm-gen-rc/Section/Subject/Window/Keybind/Focus.conf)
