@@ -8,4 +8,4 @@ parent: 使用情境
 # 使用情境(預設)
 
 
-請參考「[i3 User’s Guide](https://i3wm.org/docs/userguide.html)」
+請參考「[i3 User’s Guide](https://i3wm.org/docs/userguide.html)」。
