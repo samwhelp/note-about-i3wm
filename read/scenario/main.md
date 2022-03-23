@@ -14,12 +14,11 @@ parent: 使用情境
 * [設定檔](#設定檔)
 * [系統操作](#系統操作)
 * [開啟應用程式](#開啟應用程式)
-* [畫面佈局](#畫面佈局)
 * [視窗操作](#視窗操作)
+* [畫面佈局](#畫面佈局)
 * [桌面圖片](#桌面圖片)
 * [螢幕截圖](#螢幕截圖)
 * [音量控制](#音量控制)
-
 
 
 ## 設定檔
@@ -45,20 +44,20 @@ parent: 使用情境
 | [開啟常用的應用程式](main/launch-favorite-app) |
 
 
+## 視窗操作
+
+| 主題 |
+| --- |
+| [視窗基本操作](main/window-control) |
+| [視窗移動操作](main/window-movement-control) |
+
+
 ## 畫面佈局
 
 | 主題 |
 | --- |
 | [Layout操作](main/layout-control) |
 | [tag操作](main/tag-control) |
-
-
-## 視窗操作
-
-| 主題 |
-| --- |
-| [視窗移動操作](main/window-movement-control) |
-| [視窗其他操作](main/window-control) |
 
 
 ## 桌面圖片

@@ -1,6 +1,6 @@
 ---
 title: 螢幕截圖
-nav_order: 5030
+nav_order: 5051
 has_children: false
 parent: 使用情境(客製)
 grand_parent: 使用情境
@@ -15,5 +15,3 @@ grand_parent: 使用情境
 | ------------- | -------------------- | ---------- |
 | `Print`       | 螢幕截圖             | `scrot`    |
 | `Alt + Print` | 選取螢幕畫面區塊截圖 | `scrot -s` |
-
-

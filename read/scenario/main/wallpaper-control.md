@@ -1,6 +1,6 @@
 ---
 title: 桌面圖片
-nav_order: 5020
+nav_order: 5050
 has_children: false
 parent: 使用情境(客製)
 grand_parent: 使用情境
@@ -15,5 +15,3 @@ grand_parent: 使用情境
 | ---------------- | -------------------- | ------------------------------------------------ |
 | `Alt + w`        | 隨機更換新的桌面圖片 | `feh --bg-fill --randomize ~/Pictures/Wallpaper` |
 | `Alt + Ctrl + w` | 更換成預設的桌面圖片 | `feh --bg-fill ~/Pictures/Wallpaper/default.jpg` |
-
-

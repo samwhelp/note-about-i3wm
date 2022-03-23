@@ -1,6 +1,6 @@
 ---
 title: 音量控制
-nav_order: 5040
+nav_order: 5052
 has_children: false
 parent: 使用情境(客製)
 grand_parent: 使用情境

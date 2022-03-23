@@ -11,6 +11,7 @@
 * [Wallpaper](#wallpaper)
 * [Screenshot](#screenshot)
 * [Volume Control](#volume-control)
+* [Window Control](#window-control)
 
 
 ## System Control
@@ -100,3 +101,15 @@
 | `XF86AudioMute`        | Volume Toggle Mute     | `amixer -q -D pulse sset Master toggle`     |
 | `XF86AudioLowerVolume` | Volume Decrease        | `amixer -q -D pulse sset Master 5%- unmute` |
 | `XF86AudioRaiseVolume` | Volume Increase        | `amixer -q -D pulse sset Master 5%+ unmute` |
+
+
+## Window Control
+
+### Window Close
+
+* [config snippet](config/i3/gen/i3wm-gen-rc/Section/Subject/Window/Keybind/Close.conf)
+
+| Keybind           | Action       | Command             |
+| ----------------- | ------------ | ------------------- |
+| `Win + q`         | Close Window | `kill` (i3 builtin) |
+| `Win + Shift + q` | Kill Window  | `kill` (i3 builtin) |
