@@ -145,6 +145,27 @@
 > grave means `
 
 
+### Window Move
+
+* [config snippet](config/i3/gen/i3wm-gen-rc/Section/Subject/Window/Keybind/Move.conf)
+* [reference](https://i3wm.org/docs/userguide.html#_moving_containers)
+
+| Keybind           | Action               | Command                         |
+| ----------------- | -------------------- | ------------------------------- |
+| `Win + Shift + k` | Window Move to Up    | `move up 20 px` (i3 builtin)    |
+| `Win + Shift + j` | Window Move to Down  | `move down 20 px` (i3 builtin)  |
+| `Win + Shift + h` | Window Move to Left  | `move left 20 px` (i3 builtin)  |
+| `Win + Shift + l` | Window Move to Right | `move right 20 px` (i3 builtin) |
+
+
+| Keybind               | Action               | Command                         |
+| --------------------- | -------------------- | ------------------------------- |
+| `Win + Shift + Up`    | Window Move to Up    | `move up 20 px` (i3 builtin)    |
+| `Win + Shift + Down`  | Window Move to Down  | `move down 20 px` (i3 builtin)  |
+| `Win + Shift + Left`  | Window Move to Left  | `move left 20 px` (i3 builtin)  |
+| `Win + Shift + Right` | Window Move to Right | `move right 20 px` (i3 builtin) |
+
+
 ### Window Focus
 
 * [config snippet](config/i3/gen/i3wm-gen-rc/Section/Subject/Window/Keybind/Focus.conf)
