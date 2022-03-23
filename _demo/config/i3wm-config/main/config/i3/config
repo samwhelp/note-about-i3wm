@@ -911,6 +911,24 @@ bindsym Mod1+Ctrl+w exec feh --bg-fill ~/Pictures/Wallpaper/default.jpg
 ### Head: Keybind / Volume
 ##
 
+## Screenshot
+## Print
+bindsym Print exec --no-startup-id scrot
+
+
+## Screenshot Selected Area
+## Alt + Print
+bindsym Mod1+Print exec --no-startup-id scrot
+
+##
+### Tail: Keybind / Volume
+################################################################################
+
+
+################################################################################
+### Head: Keybind / Volume
+##
+
 
 ##
 ## https://wiki.archlinux.org/index.php/Xbindkeys
