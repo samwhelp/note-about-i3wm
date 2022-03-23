@@ -13,6 +13,7 @@
 * [Volume Control](#volume-control)
 * [Window Control](#window-control)
 * [Layout Control](#layout-control)
+* [Workspace Switch](#layout-switch)
 
 
 
@@ -223,3 +224,24 @@
 | `Alt + j`    | Layout toggle all | `layout toggle all` (i3 builtin) |
 | `Alt + Up`   | Layout toggle all | `layout toggle all` (i3 builtin) |
 | `Alt + Down` | Layout toggle all | `layout toggle all` (i3 builtin) |
+
+
+## Workspace Switch
+
+* [config snippet](config/i3/gen/i3wm-gen-rc/Section/Subject/Workspace/Keybind/SwitchToSpecific.conf)
+
+| Workspace | Title |
+| --------- | ----- |
+| 1         | Term  |
+| 2         | Edit  |
+| 3         | Web   |
+| 4         | File  |
+| 5         | Misc  |
+
+| Keybind   | Action                       | Command                           |
+| --------- | ---------------------------- | --------------------------------- |
+| `Alt + 1` | Switch to Workspace 1 (Term) | `workspace number 1` (i3 builtin) |
+| `Alt + 2` | Switch to Workspace 2 (Edit) | `workspace number 2` (i3 builtin) |
+| `Alt + 3` | Switch to Workspace 3 (Web)  | `workspace number 3` (i3 builtin) |
+| `Alt + 4` | Switch to Workspace 4 (File) | `workspace number 4` (i3 builtin) |
+| `Alt + 5` | Switch to Workspace 5 (Misc) | `workspace number 5` (i3 builtin) |

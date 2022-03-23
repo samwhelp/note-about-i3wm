@@ -66,7 +66,7 @@ parent: 使用情境
 
 | 主題 |
 | --- |
-| [工作空間切換](main/workspace-toggle) |
+| [工作空間切換](main/workspace-switch) |
 
 
 ## 桌面圖片
