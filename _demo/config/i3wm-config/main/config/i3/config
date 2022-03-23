@@ -367,12 +367,12 @@ bindsym Mod4+grave floating toggle
 bindsym Mod4+v focus mode_toggle
 
 
-## Focus to parent Window
+## Focus to parent Container
 ## Win + p
 bindsym Mod4+p focus parent
 
 
-## Focus to child Window
+## Focus to child Container/Window
 ## Win + c
 bindsym Mod4+c focus child
 
@@ -865,17 +865,17 @@ bindsym Mod1+Down layout toggle all
 
 ## https://i3wm.org/docs/userguide.html#_splitting_containers
 
-## Layout Split To Down Side (Vertical)
+## Set Layout Split Orientation To Down Side (Vertical)
 ## Alt + u
 bindsym Mod1+u split vertical
 
 
-## Layout Split To Right Side (Horizontal)
+## Set Layout Split Orientation To Right Side (Horizontal)
 ## Alt + o
 bindsym Mod1+o split horizontal
 
 
-## Layout Split Toggle
+## Set Layout Split Orientation Toggle
 ## Alt + i
 bindsym Mod1+i split toggle
 
@@ -896,12 +896,12 @@ bindsym Mod1+i split toggle
 
 ## Wallpaper Select Shuf
 ## Alt + w
-bindsym Mod1+w exec feh --bg-fill --randomize ~/Pictures/Wallpaper
+bindsym Mod1+w exec --no-startup-id feh --bg-fill --randomize ~/Pictures/Wallpaper
 
 
 ## Wallpaper Select Default
 ## Alt + Ctrl + w
-bindsym Mod1+Ctrl+w exec feh --bg-fill ~/Pictures/Wallpaper/default.jpg
+bindsym Mod1+Ctrl+w exec --no-startup-id feh --bg-fill ~/Pictures/Wallpaper/default.jpg
 
 ##
 ### Tail: Keybind / Volume
