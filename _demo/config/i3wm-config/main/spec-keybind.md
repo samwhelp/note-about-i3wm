@@ -17,6 +17,8 @@
 ## System Control
 
 * [config snippet](config/i3/gen/i3wm-gen-rc/Section/Subject/System/Keybind/Base.conf)
+* i3 User’s Guide / [6.20. Reloading/Restarting/Exiting](https://i3wm.org/docs/userguide.html#_reloading_restarting_exiting)
+* i3 User’s Guide / [6.1. Executing applications (exec)](https://i3wm.org/docs/userguide.html#exec)
 
 | Keybind           | Action          | Command         |
 | ----------------- | --------------- | --------------- |
