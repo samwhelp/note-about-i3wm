@@ -19,3 +19,6 @@ grand_parent: 使用情境
 | `Alt + Shift + b` | 開啟網頁瀏覽器 | `firefox`    |
 
 
+## 參考連結
+
+* i3 User’s Guide / [6.1. Executing applications (exec)](https://i3wm.org/docs/userguide.html#exec)

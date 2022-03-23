@@ -19,3 +19,8 @@ grand_parent: 使用情境
 | `Alt + Shift + x` | 登出         | `"i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"` (i3 內建) |
 | `Alt + Shift + z` | 關機         | `systemctl poweroff` |
 
+
+## 參考連結
+
+* i3 User’s Guide / [6.20. Reloading/Restarting/Exiting](https://i3wm.org/docs/userguide.html#_reloading_restarting_exiting)
+* i3 User’s Guide / [6.1. Executing applications (exec)](https://i3wm.org/docs/userguide.html#exec)

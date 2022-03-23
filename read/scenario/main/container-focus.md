@@ -1,5 +1,5 @@
 ---
-title: 聚焦切換視窗操作
+title: 聚焦切換視窗容器操作
 nav_order: 5020
 has_children: false
 parent: 使用情境(客製)
@@ -7,17 +7,29 @@ grand_parent: 使用情境
 ---
 
 
-# 聚焦切換視窗操作
+# 聚焦切換視窗容器操作
+
+## 注意事項
+
+一般的狀況下，聚焦切換，單純的指的是「視窗」，
+
+但當您做了更細部的分割後，就會有「視窗容器」的概念加入。
+
+請參考「[6.2. Splitting containers](https://i3wm.org/docs/userguide.html#_splitting_containers)」的說明。
+
 
 * [前後聚焦切換](#前後聚焦切換)
 * [上下左右聚焦切換](#上下左右聚焦切換)
 * [kjhl聚焦切換](#kjhl聚焦切換)
 
 
-## 前後聚焦切換
-
 * [設定片段](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/gen/i3wm-gen-rc/Section/Subject/Window/Keybind/Focus.conf)
 * [參考連結](https://i3wm.org/docs/userguide.html#_focusing_moving_containers)
+
+
+## 前後聚焦切換
+
+> 注意當做了更細部的切割後，「前後聚焦切換」只會在該容器的「前後視窗切換」，這時就要改用「上下左右聚焦切換」。
 
 | 按鍵組合  | 功能                   | 執行指令               |
 | ----------| ---------------------- | ---------------------- |
@@ -35,17 +47,17 @@ grand_parent: 使用情境
 
 | 按鍵組合      | 功能               | 執行指令                |
 | ------------- | ------------------ | ----------------------- |
-| `Win + Up`    | 聚焦切換到上邊視窗 | `focus up` (i3 內建)    |
-| `Win + Down`  | 聚焦切換到下邊視窗 | `focus down` (i3 內建)  |
-| `Win + Left`  | 聚焦切換到左邊視窗 | `focus left` (i3 內建)  |
-| `Win + Right` | 聚焦切換到右邊視窗 | `focus right` (i3 內建) |
+| `Win + Up`    | 聚焦切換到上邊視窗容器 | `focus up` (i3 內建)    |
+| `Win + Down`  | 聚焦切換到下邊視窗容器 | `focus down` (i3 內建)  |
+| `Win + Left`  | 聚焦切換到左邊視窗容器 | `focus left` (i3 內建)  |
+| `Win + Right` | 聚焦切換到右邊視窗容器 | `focus right` (i3 內建) |
 
 
 ## kjhl聚焦切換
 
 | 按鍵組合  | 功能               | 執行指令                |
 | ----------| ------------------ | ----------------------- |
-| `Win + k` | 聚焦切換到上邊視窗 | `focus up` (i3 內建)    |
-| `Win + j` | 聚焦切換到下邊視窗 | `focus down` (i3 內建)  |
-| `Win + h` | 聚焦切換到左邊視窗 | `focus left` (i3 內建)  |
-| `Win + l` | 聚焦切換到右邊視窗 | `focus right` (i3 內建) |
+| `Win + k` | 聚焦切換到上邊視窗容器 | `focus up` (i3 內建)    |
+| `Win + j` | 聚焦切換到下邊視窗容器 | `focus down` (i3 內建)  |
+| `Win + h` | 聚焦切換到左邊視窗容器 | `focus left` (i3 內建)  |
+| `Win + l` | 聚焦切換到右邊視窗容器 | `focus right` (i3 內建) |

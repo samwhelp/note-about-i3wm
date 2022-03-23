@@ -29,6 +29,7 @@
 ## Launch Terminal
 
 * [config snippet](config/i3/gen/i3wm-gen-rc/Section/Subject/Application/Keybind/Terminal.conf)
+* i3 User’s Guide / [6.1. Executing applications (exec)](https://i3wm.org/docs/userguide.html#exec)
 
 | Keybind           | Action          | Command          |
 | ----------------- | --------------- | ---------------  |

@@ -26,3 +26,8 @@ grand_parent: 使用情境
 | `XF86AudioMute`        | 音量切換成靜音 | `amixer -q -D pulse sset Master toggle`     |
 | `XF86AudioLowerVolume` | 減少音量       | `amixer -q -D pulse sset Master 5%- unmute` |
 | `XF86AudioRaiseVolume` | 增加音量       | `amixer -q -D pulse sset Master 5%+ unmute` |
+
+
+## 參考連結
+
+* i3 User’s Guide / [6.1. Executing applications (exec)](https://i3wm.org/docs/userguide.html#exec)

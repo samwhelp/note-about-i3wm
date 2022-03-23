@@ -15,3 +15,8 @@ grand_parent: 使用情境
 | ------------- | -------------------- | ---------- |
 | `Print`       | 螢幕截圖             | `scrot`    |
 | `Alt + Print` | 選取螢幕畫面區塊截圖 | `scrot -s` |
+
+
+## 參考連結
+
+* i3 User’s Guide / [6.1. Executing applications (exec)](https://i3wm.org/docs/userguide.html#exec)
