@@ -186,6 +186,17 @@
 | --------- | ---------------------------------------------- | --------------------------- |
 | `Win + v` | Change focus between tiling or floating windows | `mode_toggle` (i3 builtin) |
 
+### Window Split Orientation
+
+* [config snippet](config/i3/gen/i3wm-gen-rc/Section/Subject/Window/Keybind/Split.conf)
+* [reference](https://i3wm.org/docs/userguide.html#_splitting_containers)
+
+| Keybind   | Action                                                  | Command                         |
+| --------- | ------------------------------------------------------- | ------------------------------- |
+| `Alt + u` | Set Layout Split Orientation To Down Side (Vertical)    | `split vertical` (i3 builtin)   |
+| `Alt + o` | Set Layout Split Orientation To Right Side (Horizontal) | `split horizontal` (i3 builtin) |
+| `Alt + i` | Set Layout Split Orientation Toggle                     | `split toggle` (i3 builtin)     |
+
 
 ## Layout Control
 

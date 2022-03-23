@@ -1,5 +1,5 @@
 ---
-title: 視窗操作
+title: 單一視窗基本操作
 nav_order: 5020
 has_children: false
 parent: 使用情境(客製)
@@ -7,7 +7,7 @@ grand_parent: 使用情境
 ---
 
 
-# 視窗操作
+# 單一視窗基本操作
 
 * [關閉視窗](#關閉視窗)
 * [視窗全螢幕](#視窗全螢幕)
