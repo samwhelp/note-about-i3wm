@@ -15,3 +15,9 @@ grand_parent: 使用情境
 | ---------------- | -------------------- | ------------------------------------------------ |
 | `Alt + w`        | 隨機更換新的桌面圖片 | `feh --bg-fill --randomize ~/Pictures/Wallpaper` |
 | `Alt + Ctrl + w` | 更換成預設的桌面圖片 | `feh --bg-fill ~/Pictures/Wallpaper/default.jpg` |
+
+
+## 參考連結
+
+* i3 User’s Guide / [6.1. Executing applications (exec)](https://i3wm.org/docs/userguide.html#exec)
+* Arch Wiki / [Feh](https://wiki.archlinux.org/title/Feh)

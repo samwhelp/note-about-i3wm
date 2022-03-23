@@ -68,6 +68,7 @@
 ## Wallpaper
 
 * [config snippet](config/i3/gen/i3wm-gen-rc/Section/Subject/Wallpaper/Keybind/Base.conf)
+* Arch Wiki / [Feh](https://wiki.archlinux.org/title/Feh)
 
 | Keybind          | Action            | Command                                          |
 | ---------------- | ----------------- | ------------------------------------------------ |

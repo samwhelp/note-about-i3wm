@@ -15,7 +15,7 @@ grand_parent: 使用情境
 
 但當您做了更細部的分割後，就會有「視窗容器」的概念加入。
 
-請參考「[6.2. Splitting containers](https://i3wm.org/docs/userguide.html#_splitting_containers)」的說明。
+請參考「[6.2. Splitting containers](https://i3wm.org/docs/userguide.html#_splitting_containers)」和「[6.4. Focusing containers](https://i3wm.org/docs/userguide.html#_focusing_moving_containers)」的說明。
 
 
 * [前後聚焦切換](#前後聚焦切換)
@@ -24,7 +24,6 @@ grand_parent: 使用情境
 
 
 * [設定片段](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/gen/i3wm-gen-rc/Section/Subject/Window/Keybind/Focus.conf)
-* [參考連結](https://i3wm.org/docs/userguide.html#_focusing_moving_containers)
 
 
 ## 前後聚焦切換
@@ -61,3 +60,10 @@ grand_parent: 使用情境
 | `Win + j` | 聚焦切換到下邊視窗容器 | `focus down` (i3 內建)  |
 | `Win + h` | 聚焦切換到左邊視窗容器 | `focus left` (i3 內建)  |
 | `Win + l` | 聚焦切換到右邊視窗容器 | `focus right` (i3 內建) |
+
+
+
+## 參考連結
+
+* i3 User’s Guide / [6.4. Focusing containers](https://i3wm.org/docs/userguide.html#_focusing_moving_containers)
+* i3 User’s Guide / [6.2. Splitting containers](https://i3wm.org/docs/userguide.html#_splitting_containers)

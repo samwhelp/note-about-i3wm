@@ -44,3 +44,8 @@ grand_parent: 使用情境
 | `Win + n`     | 單一視窗，切換成「浮動模式」或是「平鋪模式」 | `floating toggle` (i3 內建) |
 
 > 關於「grave」 指的是 「`」這個「按鍵」。
+
+
+## 參考連結
+
+* i3 User’s Guide / [6.3. Manipulating layout](https://i3wm.org/docs/userguide.html#manipulating_layout)
