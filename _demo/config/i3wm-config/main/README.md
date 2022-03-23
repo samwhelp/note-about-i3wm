@@ -13,7 +13,7 @@
 ## Spec
 
 * [Keybind](spec-keybind.md)
-
+* [Mousebind](spec-mousebind.md)
 
 ## User Config File Path
 
