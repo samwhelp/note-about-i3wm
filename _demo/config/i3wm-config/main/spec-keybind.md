@@ -4,12 +4,25 @@
 
 ## Subject
 
+* [System Control](#system-control)
 * [Launch Terminal](#launch-terminal)
 * [Launch Rofi](#launch-rofi)
 * [Launch App](#launch-app)
 * [Wallpaper](#wallpaper)
 * [Screenshot](#screenshot)
 * [Volume Control](#volume-control)
+
+
+## System Control
+
+* [config snippet](config/i3/gen/i3wm-gen-rc/Section/Subject/System/Keybind/Base.conf)
+
+| Keybind           | Action          | Command         |
+| ----------------- | --------------- | --------------- |
+| `Alt + Ctrl + c`  | Reload   | `reload` (i3 builtin)  |
+| `Alt + Shift + c` | Restart  | `restart` (i3 builtin) |
+| `Alt + Shift + x` | Logout   | `"i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"` (i3 builtin) |
+| `Alt + Shift + z` | Shutdown | `systemctl poweroff`   |
 
 
 ## Launch Terminal
