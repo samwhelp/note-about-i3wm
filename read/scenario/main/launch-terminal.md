@@ -3,6 +3,7 @@ title: 開啟應用程式 (Terminal)
 nav_order: 5010
 has_children: false
 parent: 使用情境(客製)
+grand_parent: 使用情境
 ---
 
 
