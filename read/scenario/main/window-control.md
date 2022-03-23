@@ -34,8 +34,8 @@ grand_parent: 使用情境
 
 ### 單一視窗浮動或平鋪
 
-* [config snippet](config/i3/gen/i3wm-gen-rc/Section/Subject/Window/Keybind/FloatingToggle.conf)
-* [reference](https://i3wm.org/docs/userguide.html#manipulating_layout)
+* [設定片段](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/gen/i3wm-gen-rc/Section/Subject/Window/Keybind/FloatingToggle.conf)
+* [參考連結](https://i3wm.org/docs/userguide.html#manipulating_layout)
 
 | 按鍵組合      | 功能                                         | 執行指令                    |
 | ------------- | -------------------------------------------- | --------------------------- |
