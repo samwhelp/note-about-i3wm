@@ -51,7 +51,7 @@ parent: 使用情境
 | --- |
 | [單一視窗基本操作](main/window-control) |
 | [視窗移動操作](main/window-movement-control) |
-| [視窗分割](main/window-split) |
+| [視窗分割導向](main/window-split) |
 | [視窗容器聚焦切換](main/window-focus) |
 
 
