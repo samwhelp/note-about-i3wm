@@ -105,6 +105,7 @@
 
 ## Window Control
 
+
 ### Window Close
 
 * [config snippet](config/i3/gen/i3wm-gen-rc/Section/Subject/Window/Keybind/Close.conf)
@@ -113,3 +114,12 @@
 | ----------------- | ------------ | ------------------- |
 | `Win + q`         | Close Window | `kill` (i3 builtin) |
 | `Win + Shift + q` | Kill Window  | `kill` (i3 builtin) |
+
+
+### Window Fullscreen
+
+* [config snippet](config/i3/gen/i3wm-gen-rc/Section/Subject/Window/Keybind/FullScreen.conf)
+
+| Keybind   | Action            | Command             |
+| --------- | ----------------- | ------------------- |
+| `Win + f` | Window FullScreen | `fullscreen toggle` (i3 builtin) |
