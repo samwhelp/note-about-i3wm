@@ -16,4 +16,4 @@ parent: 設定
 | 說明 |
 | --- |
 | [英文版](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/spec-keybind.md) |
-| [中文版](https://samwhelp.github.io/note-about-i3wm/read/scenario.html) |
+| [中文版](https://samwhelp.github.io/note-about-i3wm/read/scenario/main.html) |
