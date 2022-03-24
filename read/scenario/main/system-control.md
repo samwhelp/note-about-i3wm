@@ -24,3 +24,12 @@ grand_parent: 使用情境
 
 * i3 User’s Guide / [6.20. Reloading/Restarting/Exiting](https://i3wm.org/docs/userguide.html#_reloading_restarting_exiting)
 * i3 User’s Guide / [6.1. Executing applications (exec)](https://i3wm.org/docs/userguide.html#exec)
+
+
+## Logout 其他方案
+
+關於「logout」有其他方案可以選擇
+
+* [obsession-logout](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/gen/i3wm-gen-rc/Section/Subject/System/Keybind/ByObSession.conf#L29)
+* [lxsession-logout](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/gen/i3wm-gen-rc/Section/Subject/System/Keybind/ByLxSession.conf#L29)
+* [gnome-session-quit --logout](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/gen/i3wm-gen-rc/Section/Subject/System/Keybind/ByGnomeSession.conf)
