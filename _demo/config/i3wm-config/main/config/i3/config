@@ -197,21 +197,27 @@ exec_always --no-startup-id ~/.config/i3/bin/autostart.sh
 ##
 
 
-
 ## Reload
 ## Alt + Ctrl + c
 # reload the configuration file
 bindsym Mod1+Ctrl+c reload
+
 
 ## Restart
 ## Alt + Shift + c
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym Mod1+Shift+c restart
 
+
 ## Logout
 ## Alt + Shift + x
 # exit i3 (logs you out of your X session)
 bindsym Mod1+Shift+x exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -B 'Yes, exit i3' 'i3-msg exit'"
+
+#bindsym Mod1+Shift+x exec obsession-logout
+#bindsym Mod1+Shift+x exec lxsession-logout
+#bindsym Mod1+Shift+x exec gnome-session-quit --logout
+
 
 ## Shutdown
 ## Alt + Shift + z
@@ -544,6 +550,7 @@ bindsym Mod4+5 move container to workspace number $the_workspace_5
 ### Head: Keybind / Window / Resize / kjhl
 ##
 
+## https://i3wm.org/docs/userguide.html#resizingconfig
 
 ## Window Resize
 ## Win + Ctrl + k
@@ -604,6 +611,10 @@ bindsym Mod4+Ctrl+Right resize grow width 20 px
 
 ################################################################################
 ### Head: Keybind / Window / Move / kjhl
+##
+
+##
+## * https://i3wm.org/docs/userguide.html#_moving_containers
 ##
 
 
