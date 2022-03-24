@@ -11,6 +11,12 @@ parent: 設定
 
 * [main](https://github.com/samwhelp/note-about-i3wm/tree/gh-pages/_demo/config/i3wm-config/main)
 
+## 設定檔路徑
+
+* [~/.config/i3/config](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/config)
+* [~/.config/i3/autostart](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/autostart)
+
+
 ## 按鍵綁定
 
 | 說明 |
