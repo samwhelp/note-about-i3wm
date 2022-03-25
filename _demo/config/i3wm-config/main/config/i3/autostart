@@ -10,10 +10,10 @@
 
 mod_xresources () {
 
-	#xrdb merge ~/.config/openbox/style/xresources/Xresources &
+	#xrdb merge ~/.config/i3/style/xresources/Xresources &
 
-	if [ -f "$HOME/.config/openbox/style/xresources/Xresources" ]; then
-		xrdb merge "$HOME/.config/openbox/style/xresources/Xresources" &
+	if [ -f "$HOME/.config/i3/style/xresources/Xresources" ]; then
+		xrdb merge "$HOME/.config/i3/style/xresources/Xresources" &
 	fi
 
 }
@@ -29,8 +29,8 @@ mod_xresources () {
 
 mod_keybind () {
 
-	if [ -f "$HOME/.config/openbox/sxhkdrc" ]; then
-		sxhkd -c "$HOME/.config/openbox/sxhkdrc" &
+	if [ -f "$HOME/.config/i3/sxhkdrc" ]; then
+		sxhkd -c "$HOME/.config/i3/sxhkdrc" &
 	else
 		sxhkd &
 	fi
@@ -126,8 +126,8 @@ mod_wallpaper () {
 
 mod_compositor () {
 
-	if [ -f "$HOME/.config/openbox/style/picom/picom.conf" ]; then
-		picom --config "$HOME/.config/openbox/style/picom/picom.conf" &
+	if [ -f "$HOME/.config/i3/style/picom/picom.conf" ]; then
+		picom --config "$HOME/.config/i3/style/picom/picom.conf" &
 	else
 		picom &
 	fi
@@ -145,8 +145,8 @@ mod_compositor () {
 
 mod_panel () {
 
-	if [ -f "$HOME/.config/openbox/style/tint2/tint2rc" ]; then
-		tint2 -c "$HOME/.config/openbox/style/tint2/tint2rc" &
+	if [ -f "$HOME/.config/i3/style/tint2/tint2rc" ]; then
+		tint2 -c "$HOME/.config/i3/style/tint2/tint2rc" &
 	else
 		tint2 &
 	fi
