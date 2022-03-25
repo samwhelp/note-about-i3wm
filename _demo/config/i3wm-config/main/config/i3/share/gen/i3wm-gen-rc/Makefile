@@ -58,5 +58,5 @@ test:
 
 
 sync: rc
-	install -Dm644 config ../../config
+	install -Dm644 config ../../../config
 .PHONY: sync

@@ -9,7 +9,7 @@ grand_parent: 使用情境
 
 # 螢幕截圖
 
-* [設定片段](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/gen/i3wm-gen-rc/Section/Subject/Screenshot/Keybind/Base.conf)
+* [設定片段](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/share/gen/i3wm-gen-rc/Section/Subject/Screenshot/Keybind/Base.conf)
 
 | 按鍵組合      | 功能                 | 執行指令   |
 | ------------- | -------------------- | ---------- |

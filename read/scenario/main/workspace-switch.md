@@ -23,7 +23,7 @@ grand_parent: 使用情境
 
 ## 指定切換
 
-* [設定片段](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/gen/i3wm-gen-rc/Section/Subject/Application/Workspace/SwitchToSpecific.conf)
+* [設定片段](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/share/gen/i3wm-gen-rc/Section/Subject/Application/Workspace/SwitchToSpecific.conf)
 
 | 按鍵組合  | 功能                    | 執行指令                       |
 | --------- | ----------------------- | ------------------------------ |
@@ -33,11 +33,11 @@ grand_parent: 使用情境
 | `Alt + 4` | 切換到工作空間 4 (File) | `workspace number 4` (i3 內建) |
 | `Alt + 5` | 切換到工作空間 5 (Misc) | `workspace number 5` (i3 內建) |
 
-> 若有設定「[workspace_auto_back_and_forth yes](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/gen/i3wm-gen-rc/Section/Subject/Workspace/Attribute/Base.conf#L37)」，下面的循環切換會失效。
+> 若有設定「[workspace_auto_back_and_forth yes](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/share/gen/i3wm-gen-rc/Section/Subject/Workspace/Attribute/Base.conf#L37)」，下面的循環切換會失效。
 
 ## 循環切換
 
-* [設定片段](config/i3/gen/i3wm-gen-rc/Section/Subject/Layout/Keybind/QuickSwitch.conf)
+* [設定片段](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/share/gen/i3wm-gen-rc/Section/Subject/Layout/Keybind/QuickSwitch.conf)
 
 | 按鍵組合  | 功能                                   | 執行指令                       |
 | --------- | -------------------------------------- | ------------------------------ |

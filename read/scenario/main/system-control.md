@@ -10,7 +10,7 @@ grand_parent: 使用情境
 # 系統操作
 
 
-* [設定片段](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/gen/i3wm-gen-rc/Section/Subject/System/Keybind/Base.conf)
+* [設定片段](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/share/gen/i3wm-gen-rc/Section/Subject/System/Keybind/Base.conf)
 
 | 按鍵組合           | 功能        | 執行指令             |
 | ----------------- | ------------ | -------------------- |
@@ -30,6 +30,6 @@ grand_parent: 使用情境
 
 關於「logout」有其他方案可以選擇
 
-* [obsession-logout](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/gen/i3wm-gen-rc/Section/Subject/System/Keybind/ByObSession.conf#L29)
-* [lxsession-logout](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/gen/i3wm-gen-rc/Section/Subject/System/Keybind/ByLxSession.conf#L29)
-* [gnome-session-quit --logout](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/gen/i3wm-gen-rc/Section/Subject/System/Keybind/ByGnomeSession.conf)
+* [obsession-logout](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/share/gen/i3wm-gen-rc/Section/Subject/System/Keybind/ByObSession.conf#L29)
+* [lxsession-logout](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/share/gen/i3wm-gen-rc/Section/Subject/System/Keybind/ByLxSession.conf#L29)
+* [gnome-session-quit --logout](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/share/gen/i3wm-gen-rc/Section/Subject/System/Keybind/ByGnomeSession.conf)

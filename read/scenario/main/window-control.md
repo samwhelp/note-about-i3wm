@@ -16,7 +16,7 @@ grand_parent: 使用情境
 
 ## 關閉視窗
 
-* [設定片段](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/gen/i3wm-gen-rc/Section/Subject/Window/Keybind/Close.conf)
+* [設定片段](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/share/gen/i3wm-gen-rc/Section/Subject/Window/Keybind/Close.conf)
 
 | 按鍵組合          | 功能     | 執行指令         |
 | ----------------- | -------- | ---------------- |
@@ -26,7 +26,7 @@ grand_parent: 使用情境
 
 ## 視窗全螢幕
 
-* [設定片段](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/gen/i3wm-gen-rc/Section/Subject/Window/Keybind/FullScreen.conf)
+* [設定片段](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/share/gen/i3wm-gen-rc/Section/Subject/Window/Keybind/FullScreen.conf)
 
 | 按鍵組合  | 功能       | 執行指令                      |
 | --------- | ---------- | ----------------------------- |
@@ -35,7 +35,7 @@ grand_parent: 使用情境
 
 ### 單一視窗浮動或平鋪
 
-* [設定片段](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/gen/i3wm-gen-rc/Section/Subject/Window/Keybind/FloatingToggle.conf)
+* [設定片段](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/share/gen/i3wm-gen-rc/Section/Subject/Window/Keybind/FloatingToggle.conf)
 * [參考連結](https://i3wm.org/docs/userguide.html#manipulating_layout)
 
 | 按鍵組合      | 功能                                         | 執行指令                    |

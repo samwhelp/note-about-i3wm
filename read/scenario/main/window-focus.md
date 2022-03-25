@@ -25,7 +25,7 @@ grand_parent: 使用情境
 * [kjhl聚焦切換](#kjhl聚焦切換)
 
 
-* [設定片段](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/gen/i3wm-gen-rc/Section/Subject/Window/Keybind/Focus.conf)
+* [設定片段](https://github.com/samwhelp/note-about-i3wm/blob/gh-pages/_demo/config/i3wm-config/main/config/i3/share/gen/i3wm-gen-rc/Section/Subject/Window/Keybind/Focus.conf)
 
 
 ## 前後聚焦切換

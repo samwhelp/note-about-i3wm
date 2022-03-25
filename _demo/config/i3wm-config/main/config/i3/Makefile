@@ -19,11 +19,11 @@ help:
 
 
 install:
-	make -C ./gen/i3wm-gen-rc install
+	make -C ./share/gen/i3wm-gen-rc install
 .PHONY: install
 
 
 
 sync:
-	make -C ./gen/i3wm-gen-rc sync
+	make -C ./share/gen/i3wm-gen-rc sync
 .PHONY: sync
