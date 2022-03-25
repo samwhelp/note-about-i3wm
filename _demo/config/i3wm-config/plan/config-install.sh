@@ -14,9 +14,11 @@ i3wm_config_install () {
 	echo "##"
 	echo
 
-	echo "./config/i3/bin/maintain-install.sh"
-	./config/i3/bin/maintain-install.sh
+	#echo "./config/i3/bin/maintain-install.sh"
+	#./config/i3/bin/maintain-install.sh
 
+	echo "make -C config/i3 install"
+	make -C config/i3 install
 
 	echo
 
