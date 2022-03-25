@@ -1,3 +1,221 @@
 #!/usr/bin/env bash
 
-echo "TODO:"
+
+#echo '## User Autostart'
+
+
+################################################################################
+### Head: Xresources
+##
+
+mod_xresources () {
+
+	#xrdb merge ~/.config/openbox/style/xresources/Xresources &
+
+	if [ -f "$HOME/.config/openbox/style/xresources/Xresources" ]; then
+		xrdb merge "$HOME/.config/openbox/style/xresources/Xresources" &
+	fi
+
+}
+
+##
+### Tail: Xresources
+################################################################################
+
+
+################################################################################
+### Head: Keybind
+##
+
+mod_keybind () {
+
+	if [ -f "$HOME/.config/openbox/sxhkdrc" ]; then
+		sxhkd -c "$HOME/.config/openbox/sxhkdrc" &
+	else
+		sxhkd &
+	fi
+
+}
+
+##
+### Tail: Keybind
+################################################################################
+
+
+################################################################################
+### Head: Cursor
+##
+
+mod_cursor () {
+
+	xsetroot -cursor_name left_ptr
+
+}
+
+##
+### Tail: Cursor
+################################################################################
+
+
+################################################################################
+### Head: Backgruond Color
+##
+
+##
+## * https://en.wikipedia.org/wiki/List_of_colors_(compact)
+##
+## > prevent no wallpaper
+##
+
+mod_background_color () {
+
+	#xsetroot -solid "#c0c0c0"
+	#xsetroot -solid "#808080"
+	#xsetroot -solid "#696969"
+	#xsetroot -solid "#625B57"
+	xsetroot -solid "#404040"
+	#xsetroot -solid "#8FBC8F"
+	#xsetroot -solid "#2F4F4F"
+	#xsetroot -solid "#F5F5DC"
+	#xsetroot -solid "#BDB76B"
+	#xsetroot -solid "#D2B48C"
+
+}
+
+##
+### Tail: Backgruond Color
+################################################################################
+
+
+################################################################################
+### Head: Wallpaper
+##
+
+mod_wallpaper () {
+
+	##
+	## feh --bg-fill ~/Pictures/Wallpaper/default.jpg
+	##
+
+	local default_wallpaper="$HOME/Pictures/Wallpaper/default.jpg"
+
+	if [ -f "$HOME/.fehbg" ]; then
+		if [ -x "$HOME/.fehbg" ]; then
+			"$HOME/.fehbg" &
+		else
+			if [ -f "$default_wallpaper" ]; then
+				feh --bg-fill "$default_wallpaper" &
+			fi
+		fi
+	else
+		if [ -f "$default_wallpaper" ]; then
+			feh --bg-fill "$default_wallpaper" &
+		fi
+	fi
+
+}
+
+##
+### Tail: Wallpaper
+################################################################################
+
+
+################################################################################
+### Head: Compositor
+##
+
+mod_compositor () {
+
+	if [ -f "$HOME/.config/openbox/style/picom/picom.conf" ]; then
+		picom --config "$HOME/.config/openbox/style/picom/picom.conf" &
+	else
+		picom &
+	fi
+
+}
+
+##
+### Tail: Compositor
+################################################################################
+
+
+################################################################################
+### Head: Panel
+##
+
+mod_panel () {
+
+	if [ -f "$HOME/.config/openbox/style/tint2/tint2rc" ]; then
+		tint2 -c "$HOME/.config/openbox/style/tint2/tint2rc" &
+	else
+		tint2 &
+	fi
+
+}
+
+##
+### Tail: Panel
+################################################################################
+
+
+################################################################################
+### Head: Autostart / XDG
+##
+
+mod_xdg_autostart () {
+
+	local xdg_autostart='/usr/lib/openbox/openbox-xdg-autostart'
+
+	if [ -f "$xdg_autostart" ]; then
+		if [ -x "$xdg_autostart" ]; then
+			"$xdg_autostart" &
+		fi
+	fi
+
+}
+
+##
+### Tail: Autostart / XDG
+################################################################################
+
+
+################################################################################
+### Head: Autostart / Extra
+##
+
+mod_extra_autostart () {
+
+	## add your autostart stuffs here
+
+	#fcitx &
+	#mate-volume-control-status-icon &
+
+	return 0
+}
+
+##
+### Tail: Autostart / Extra
+################################################################################
+
+
+################################################################################
+### Head: Main
+##
+
+__main__ () {
+	mod_xresources
+	#mod_keybind
+	mod_cursor
+	mod_background_color
+	mod_wallpaper
+	mod_compositor
+	mod_panel
+	mod_xdg_autostart
+	mod_extra_autostart
+}
+
+__main__
+
+##
+### Tail: Main
+################################################################################
