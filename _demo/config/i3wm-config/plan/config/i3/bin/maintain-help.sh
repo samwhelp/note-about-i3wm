@@ -39,7 +39,7 @@ Example:
 	$ make ubuntu-prepare
 
 Debug:
-	$ export DEBUG_OPENBOX=true
+	$ export DEBUG_I3WM=true
 
 EOF
 
