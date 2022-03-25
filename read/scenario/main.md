@@ -49,7 +49,7 @@ parent: 使用情境
 
 | 主題 |
 | --- |
-| [單一視窗基本操作](main/window-control) |
+| [視窗基本操作](main/window-control) |
 | [視窗移動操作](main/window-move) |
 | [視窗更改大小](main/window-resize) |
 | [視窗分割導向](main/window-split) |
