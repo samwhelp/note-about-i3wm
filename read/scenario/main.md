@@ -42,7 +42,7 @@ parent: 使用情境
 | --- |
 | [開啟 Terminal](main/application-launch-terminal) |
 | [開啟 Rofi](main/application-launch-rofi) |
-| [開啟常用的應用程式](main/application-launch-favorite-app) |
+| [開啟常用的應用程式](main/application-launch-favorite) |
 
 
 ## 視窗操作
