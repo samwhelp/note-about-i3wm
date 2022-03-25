@@ -14,14 +14,8 @@ i3wm_config_install () {
 	echo "##"
 	echo
 
-	echo "mkdir -p $HOME/.config/i3"
-	mkdir -p "$HOME/.config/i3"
-
-	echo "install -Dm644 ./config/i3/config $HOME/.config/i3/config"
-	install -Dm644 "./config/i3/config" "$HOME/.config/i3/config"
-
-	echo "install -Dm755 ./config/i3/autostart $HOME/.config/i3/autostart"
-	install -Dm755 "./config/i3/autostart" "$HOME/.config/i3/autostart"
+	echo "./config/i3/bin/maintain-install.sh"
+	./config/i3/bin/maintain-install.sh
 
 
 	echo
