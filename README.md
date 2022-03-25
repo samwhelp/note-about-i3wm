@@ -44,7 +44,7 @@
 | --- | --- | --- |
 | [wallpaper-select-feh](https://samwhelp.github.io/note-about-fzf/read/project/wallpaper-select/wallpaper-select-feh) | `wallpaper-select-feh fzf` | 設定桌面圖片 |
 | [xfteditor](https://samwhelp.github.io/tool-xfteditor/read/project/xfteditor/) | `xfted file_path` | 輔助「檔案管理器」，右鍵開啟檔案到「xfce-terminal」的「新頁籤(Tab)」 |
-
+| [i3wm-gen-rc](https://github.com/samwhelp/note-about-i3wm/tree/gh-pages/_demo/config/i3wm-config/main/config/i3/share/gen/i3wm-gen-rc) | `make rc` | 輔助產生「config」 |
 
 ## 相關筆記
 

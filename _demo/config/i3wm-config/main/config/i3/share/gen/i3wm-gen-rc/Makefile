@@ -38,7 +38,7 @@ ubuntu-prepare:
 
 
 rc:
-	php config.php > config
+	php config.conf > config
 .PHONY: rc
 
 
