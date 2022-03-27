@@ -53,6 +53,7 @@
 * [manjaro 探索筆記](https://samwhelp.github.io/note-about-manjaro/)
 * [archcraft 探索筆記](https://samwhelp.github.io/note-about-archcraft/) / [archcraft-adjustment-package](https://github.com/samwhelp/archcraft-adjustment-package/) / [i3wm-with-tint](https://github.com/samwhelp/archcraft-adjustment-package/tree/main/core/wm/i3wm/archcraft-modeling-i3wm-with-tint/asset/etc/skel/.local/share/i3wmrc-profile/i3wm-with-tint)
 * [xsession 簡易入門](https://samwhelp.github.io/note-about-xsession/)
+* [System Modeling](https://samwhelp.github.io/system-modeling/)
 
 
 ## samwhelp
