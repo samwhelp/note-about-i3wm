@@ -14,10 +14,10 @@ grand_parent: 使用情境
 
 | 工作空間 | 名稱  |
 | -------- | ----- |
-| 1        | Term  |
+| 1        | File  |
 | 2        | Edit  |
 | 3        | Web   |
-| 4        | File  |
+| 4        | Term  |
 | 5        | Misc  |
 
 
