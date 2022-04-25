@@ -161,10 +161,10 @@ set $the_workspace_9 "9"
 set $the_workspace_10 "10"
 
 
-#set $the_workspace_1 "Term"
+#set $the_workspace_1 "File"
 #set $the_workspace_2 "Edit"
 #set $the_workspace_3 "Web"
-#set $the_workspace_4 "File"
+#set $the_workspace_4 "Term"
 #set $the_workspace_5 "Misc"
 # set $the_workspace_6 "6"
 # set $the_workspace_7 "7"
@@ -1050,13 +1050,14 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -q -D pulse sset Master
 
 
 ################################################################################
-### Head: Rule / Workspace / Term
+### Head: Rule / Workspace / File
 ##
 
-
+assign [class="pcmanfm-qt"] 1
+assign [class="thunr"] 1
 
 ##
-### Tail: Rule / Workspace / Term
+### Tail: Rule / Workspace / File
 ################################################################################
 
 
@@ -1083,14 +1084,14 @@ assign [class="Navigator|firefox"] 3
 
 
 ################################################################################
-### Head: Rule / Workspace / File
+### Head: Rule / Workspace / Term
 ##
 
-assign [class="pcmanfm-qt"] 4
-assign [class="thunr"] 4
+#assign [class="Sakura"] 4
+#assign [class="Xfce4-terminal"] 4
 
 ##
-### Tail: Rule / Workspace / File
+### Tail: Rule / Workspace / Term
 ################################################################################
 
 
