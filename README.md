@@ -48,6 +48,7 @@
 
 ## 相關筆記
 
+* [sway 探索筆記](https://samwhelp.github.io/note-about-sway/)
 * [regolith 探索筆記](https://samwhelp.github.io/note-about-regolith/)
 * [ubuntu 探索筆記](https://samwhelp.github.io/note-about-ubuntu/)
 * [manjaro 探索筆記](https://samwhelp.github.io/note-about-manjaro/)
