@@ -1079,8 +1079,8 @@ bindsym XF86AudioRaiseVolume exec --no-startup-id amixer -q -D pulse sset Master
 ### Head: Rule / Workspace / File
 ##
 
-assign [class="pcmanfm-qt"] 1
-assign [class="thunr"] 1
+assign [class="pcmanfm-qt"] $the_workspace_1
+assign [class="thunr"] $the_workspace_1
 
 ##
 ### Tail: Rule / Workspace / File
@@ -1091,7 +1091,7 @@ assign [class="thunr"] 1
 ### Head: Rule / Workspace / Edit
 ##
 
-assign [class="Atom"] 2
+assign [class="Atom"] $the_workspace_2
 
 ##
 ### Tail: Rule / Workspace / Edit
@@ -1102,7 +1102,7 @@ assign [class="Atom"] 2
 ### Head: Rule / Workspace / Web
 ##
 
-assign [class="Navigator|firefox"] 3
+assign [class="Navigator|firefox"] $the_workspace_3
 
 ##
 ### Tail: Rule / Workspace / Web
@@ -1113,8 +1113,8 @@ assign [class="Navigator|firefox"] 3
 ### Head: Rule / Workspace / Term
 ##
 
-#assign [class="Sakura"] 4
-#assign [class="Xfce4-terminal"] 4
+#assign [class="Sakura"] $the_workspace_4
+#assign [class="Xfce4-terminal"] $the_workspace_4
 
 ##
 ### Tail: Rule / Workspace / Term
