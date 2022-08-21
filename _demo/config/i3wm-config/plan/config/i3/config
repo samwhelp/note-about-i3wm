@@ -67,6 +67,10 @@ client.background       #1E222A
 
 ## https://github.com/archcraft-os/archcraft-i3wm/blob/main/src/archcraft-i3wm/i3/config#L29
 
+
+default_border pixel 2
+
+
 # Activate smart borders (always)
 #smart_borders on
 
