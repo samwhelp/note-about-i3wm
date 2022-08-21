@@ -98,7 +98,6 @@ gaps outer 0
 
 # Only enable gaps on a workspace when there is at least one container
 #smart_gaps on
-smart_gaps off
 
 
 ##
