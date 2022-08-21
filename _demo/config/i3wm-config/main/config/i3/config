@@ -61,51 +61,6 @@ client.background       #1E222A
 
 
 ################################################################################
-### Head: Attribute / Window / Border
-##
-
-
-## https://github.com/archcraft-os/archcraft-i3wm/blob/main/src/archcraft-i3wm/i3/config#L29
-
-# Activate smart borders (always)
-smart_borders on
-
-
-# Title bar text alignment
-title_align center
-
-# Uncomment this to enable title bars
-#for_window [class=".*"] border normal 4
-
-# Uncomment this to disable title bars
-for_window [class=".*"] border pixel 4
-
-##
-### Tail: Attribute / Window / Border
-################################################################################
-
-
-################################################################################
-### Head: Attribute / Window / Gaps
-##
-
-
-## https://github.com/archcraft-os/archcraft-i3wm/blob/main/src/archcraft-i3wm/i3/config#L22
-
-# Gaps (Outer gaps are added to the inner gaps)
-gaps inner 15
-gaps outer 0
-
-# Only enable gaps on a workspace when there is at least one container
-#smart_gaps on
-
-
-##
-### Tail: Attribute / Window / Gaps
-################################################################################
-
-
-################################################################################
 ### Head: Attribute / Window
 ##
 
