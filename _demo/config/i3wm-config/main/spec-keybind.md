@@ -228,6 +228,7 @@
 | Keybind   | Action                                         | Command                     |
 | --------- | ---------------------------------------------- | --------------------------- |
 | `Win + v` | Change focus between tiling or floating windows | `mode_toggle` (i3 builtin) |
+| `Win + m` | Change focus between tiling or floating windows | `mode_toggle` (i3 builtin) |
 
 ### Window Split Orientation
 
